@@ -3,6 +3,7 @@
   100% {opacity: 1;}
 }
 
+
 @keyframes bounce {
   0% {transform: translateY(0px);}
   5% {transform: translateY(-180px);}
@@ -41,15 +42,9 @@
   color: rgba(236, 100, 107, 1);
 }
 
-.old-phone {
-  transform: rotate(30deg);
-  opacity: 0.5;
-  animation
-}
-
 .bouncer {
   animation-name: bounce;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-fill-mode: both;
 }
 
@@ -71,24 +66,6 @@
   animation-fill-mode: both;
 }
 
-#soon:hover {
-  color: red;
-}
-.ios-badge {
-  height: 40px;
-}
-
-.generic-smart-phone {
-  height: 200px;
-}
-.parakeat-logo {
-
-
-}
-
-.parkeat-logo:hover {
-  transform: scale(1.5, 1.5);
-}
 
 .fade-in {
   animation-name: fade-in;
