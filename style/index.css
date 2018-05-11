@@ -42,6 +42,10 @@
   color: rgba(236, 100, 107, 1);
 }
 
+#tribe:hover {
+  cursor: pointer;
+}
+
 .bouncer {
   animation-name: bounce;
   animation-duration: 2s;
